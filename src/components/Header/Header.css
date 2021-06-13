@@ -1,0 +1,35 @@
+.head-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.head-image{
+    width: auto;
+    transition: max-width 1s, min-width 1s;
+}
+
+.head-text{
+    font-family: 'Courgette', cursive;
+    font-size: auto;
+    transition: font-size 1s;
+}
+
+.head-image-expand{
+    max-width: 350px;
+    min-width: 320px;
+}
+
+.head-image-contr{
+    max-width: 100px;
+    min-width: 80px;
+}
+
+.head-text-expand{
+    font-size: 50px;
+}
+
+.head-text-contr{
+    font-size: 15px;
+}
